@@ -1,0 +1,21 @@
+#A push operation will push element on the top of a stack and it will return nothing whereas the pop operation will return the top element of a stack. 
+#=====================================================================
+Push/Pop  |  Values Return  | Values in the Stack
+Push(5)          Nil               [5]
+Push(3)          Nil               [5,3]
+Pop()            3                 [5]
+Push(2)          Nil               [5,2]
+Push(8)          Nil               [5,2,8]
+Pop()            8                 [5,2]
+Pop()            2                 [5]
+Push(9)          Nil               [5,9]
+Push(1)          Nil               [5,9,1]
+Pop()            1                 [5,9]
+Push(7)          Nil               [5,9,7]
+Push(6)          Nil               [5,9,7,6]
+Pop()            6                 [5,9,7]
+Pop()            7                 [5,9]
+Push(4)          Nil               [5,9,4]
+Pop()            4                 [5,9]
+Pop()            9                 [5]
+#=====================================================================
