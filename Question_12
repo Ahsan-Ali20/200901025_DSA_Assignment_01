@@ -1,0 +1,21 @@
+#=================================================================================================================================================
+add_first() will add the element at the front whereas add_last() will add the element at the end.
+delete_first() will delete the element from the front whereas delete_last() will delete the element from the end.
+first() will return the first element and back() will return the reference to the last element.
+last() is used as a reference to perform operations and this returns a pointer whenever you call it and depends on the compiler when you run it.
+#=================================================================================================================================================
+add_first(4). -> 4
+add_last (8) ->. 4,8
+add_last (9). -> 4,8,9
+add_first(5). -> 5,4,8,9
+back() -> 9
+delete_first() -> 4,8,9
+delete_last() -> 4,8
+add_last(7) -> 4,8,7
+first() -> 4
+add_last(6) -> 4,8,7,6
+delete_first() -> 8,7,6
+delete_first() ->7,6
+#=================================================================================================================================================
+
+
