@@ -1,0 +1,10 @@
+#================================================================================================
+Nothing will be change!
+Explanation:
+The goal of the resize function is to copy the element from old array to new array position wise.
+The same for loop
+for i in range(self._data):
+self._data[k] = old[k]
+will iterate through 0 to self._data() and store in data.
+Hence both operations are same.
+#=================================================================================================
