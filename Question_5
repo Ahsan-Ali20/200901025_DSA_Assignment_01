@@ -1,0 +1,15 @@
+#==========QUESTION_5===========
+from collections import deque
+Before=[2,0,0,9,0,1,0,2,5]
+print("================================================")
+print("Before reverse my roll number is : ",Before)
+stack=deque()
+def ReverseList(Before): stack = []
+for a in Before: stack.append(a)
+Before = []
+while len(stack)>0 :
+  Before.append(stack.pop())
+  q = ReverseList(Before)
+print("After reverse my roll number is : ")
+print(Before)
+print("================================================")
