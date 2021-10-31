@@ -1,0 +1,3 @@
+Initially an empty queue, we consider the front value as initially zero
+self._front only increments when a dequeue takes place so the final value would be 10 ahead of its initial value, 
+or self._front == 10 is self._front was initially 0 as assumed. More generally, it's (10+initial) % 30
