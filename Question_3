@@ -1,0 +1,14 @@
+from collections import deque 
+
+def transfer(S,T):
+  print("==========QUESTION_3===========")
+  no=int(input("Enter range = "))
+  for i in range((no)):
+    S.append(i)
+  while(len(S)!=0):
+    T.append(S.pop())
+    
+S=deque()
+T=deque()
+transfer(S, T)
+print (T)
