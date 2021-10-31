@@ -1,0 +1,42 @@
+import collections
+#=================================================
+class Queue():
+    def __init__(self):
+        self.d_col = collections.deque()
+        self.s_col = 0
+        
+#=================================================        
+    def __len__(self):
+        return self.s_col
+    
+    def first(self):
+        return self.d_col[0]
+        
+    def enqueue(self, value):
+        self.s_col += 1
+        self.d_col.append(value)  
+        
+    def empty(self):
+        return self.s_col == 0
+    
+    def dequeue(self):
+        if self.empty():
+            raise ValueError('Queue is empty')
+        else:
+            ans = self.d_col.popleft()
+            self.s_col -= 1
+            return ans
+        
+#=================================================        
+dq = Queue()
+
+for i in range(10):
+    dq.enqueue(i)
+
+print("============================================================")    
+print('Start', dq.first())
+print('End', len(dq))
+print("============================================================")
+while not dq.empty():
+    print( dq.dequeue(),  end = ', ')
+    
