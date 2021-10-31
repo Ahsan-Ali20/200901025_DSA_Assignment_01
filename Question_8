@@ -1,0 +1,6 @@
+#==========QUESTION_8===========
+As there are 15 dequeue operations out of which 5 fails to remove anything from the queue so there are essentially 10 dequeues operations
+First operations makes no change in queue,therefore we have :
+32-10 = 22 
+The size of the queue Q = 22 
+#===============================
