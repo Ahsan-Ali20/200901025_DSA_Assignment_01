@@ -1,0 +1,4 @@
+#In stack, Push adds item to collection and increases size of stack whereas Pop returns last item from collection and decrease size of stack and Top only returns last item from collection without removing it.
+#If 3 pop operations returned null and are ignored then only 7 pop operations decrease size of stack. Current size of stack is
+#25 (push) - 7 = 18;
+#Therefore current size of S will be 18.
