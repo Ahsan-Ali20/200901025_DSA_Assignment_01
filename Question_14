@@ -1,0 +1,15 @@
+#==============================================================
+import collections
+S=Stack()
+Q=Queue()
+def queue_queue():
+    S.dequeue = [1,2,3,4,5,6,7,8]
+    print(S)
+    for i in D:
+        S.pop()
+        print(S)
+    Q = []
+    while not S.is_empty():
+        Q.enqueue(D)
+        print(Q)
+#==============================================================
